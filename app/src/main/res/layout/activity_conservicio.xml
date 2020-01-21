@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="@drawable/fondo2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Error Message"
+        android:id="@+id/err"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:id="@+id/listservicio"
+        android:layout_width="336dp"
+        android:layout_height="200dp"
+        android:layout_weight="0.42"
+        android:touchscreenBlocksFocus="false"
+        android:layout_gravity="center_horizontal|top"
+        android:footerDividersEnabled="false"
+        android:layout_below="@+id/frameLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textFilterEnabled="false"
+        android:background="#eeffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp">
+
+    </ListView>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/fondo"
+        android:id="@+id/frameLayout2">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/servit"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:layout_gravity="center_horizontal" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/frameLayout2"
+        android:background="@drawable/fondo2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/frameLayout3"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Itxt"
+            android:hint="Id"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="#fdfdfd"
+            android:textSize="30dp"
+            android:typeface="normal"
+            android:textAlignment="center"
+            android:textIsSelectable="false"
+            android:layout_marginLeft="10dp"
+            android:textColorLink="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="151dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/search"
+            android:text="buscar"
+            android:onClick="main_Bus"
+            android:id="@+id/button3"
+            android:layout_gravity="center"
+            android:backgroundTint="#7395f4"
+            android:scaleType="fitXY"
+            android:background="#7395f4"
+            android:layout_marginLeft="25dp" />
+
+        <ImageButton
+            android:layout_width="151dp"
+            android:layout_height="match_parent"
+            android:text="buscar"
+            android:src="@drawable/refresco"
+            android:onClick="main_actu"
+            android:id="@+id/butactu"
+            android:layout_gravity="right|center_vertical"
+            android:backgroundTint="#7395f4"
+            android:layout_marginRight="30dp"
+            android:scaleType="fitXY"
+            android:baselineAlignBottom="false"
+            android:background="#7395f4" />
+
+    </FrameLayout>
+
+</RelativeLayout>

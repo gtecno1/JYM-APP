@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="#cd7e7e"
+        android:layout_marginLeft="60dp">
+
+        <Button
+            android:onClick="main_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="INICIAR SECIÓN"
+            android:id="@+id/button"
+            android:backgroundTint="#1d88e7"
+            android:background="#1488ee"
+            android:textColor="#f3fffefe"
+            android:layout_marginBottom="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:hint="Usuario"
+            android:foregroundTint="#ffffff"
+            android:textColorHint="#ffffff"
+            android:layout_above="@+id/button"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:hint="Contraseña"
+            android:textColorHint="#ffffff"
+            android:layout_above="@+id/editText"
+            android:layout_centerHorizontal="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chofer"
+            android:id="@+id/radioButton"
+            android:checked="false"
+            android:textColor="#ffffff"
+            android:layout_above="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otros"
+            android:id="@+id/radioButton2"
+            android:checked="false"
+            android:textColor="#ffffff"
+            android:layout_above="@+id/editText2"
+            android:layout_alignRight="@+id/editText2"
+            android:layout_alignEnd="@+id/editText2" />
+    </RelativeLayout>
+</RelativeLayout>

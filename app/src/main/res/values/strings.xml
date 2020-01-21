@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JYR Plus</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_perfil_chof">Perfil_chof</string>
+    <string name="title_activity_prueba">prueba</string>
+    <string name="title_activity_consercho">consercho</string>
+    <string name="title_activity_condinecho">condinecho</string>
+    <string name="title_activity_servidet">servidet</string>
+    <string name="title_activity_registrar1">Registrar1</string>
+</resources>

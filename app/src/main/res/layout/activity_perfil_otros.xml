@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    android:background="@drawable/fondo2">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/frameLayout"
+
+        android:layout_alignParentRight="true"
+        android:background="@drawable/fondo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N"
+            android:id="@+id/textnom"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+            android:layout_alignRight="@+id/imafo"
+            android:layout_alignEnd="@+id/imafo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sexo"
+            android:id="@+id/textsexo"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_above="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NINGUNO"
+            android:id="@+id/textcar"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_above="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:id="@+id/imafo"
+            android:layout_above="@+id/textnom"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEXO"
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CARGO"
+            android:id="@+id/textView3"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+
+        android:layout_alignRight="@+id/frameLayout"
+        android:layout_alignEnd="@+id/frameLayout">}
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imagetitu"
+            android:src="@drawable/tuper"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#201488ee"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/frameLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageButton3"
+            android:src="@drawable/dinerootros"
+            android:backgroundTint="#00ffffff"
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageButton"
+            android:src="@drawable/servicio"
+            android:backgroundTint="#00ffffff"
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/auditoria"
+            android:backgroundTint="#00ffffff"
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/imageButton3"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Servicios"
+            android:id="@+id/textos"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:typeface="normal"
+            android:layout_below="@+id/imageButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auditorias"
+            android:id="@+id/textView6"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#020202"
+            android:typeface="normal"
+            android:layout_below="@+id/imageButton2"
+            android:layout_alignRight="@+id/imageButton2"
+            android:layout_alignEnd="@+id/imageButton2"
+            android:layout_alignLeft="@+id/imageButton2"
+            android:layout_alignStart="@+id/imageButton2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finananzas"
+            android:id="@+id/textcf"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:typeface="normal"
+            android:layout_below="@+id/imageButton3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

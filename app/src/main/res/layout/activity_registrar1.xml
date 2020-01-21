@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    android:background="@drawable/fondo2">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/fondo"
+        >}
+        <ImageView
+            android:layout_width="528dp"
+            android:layout_height="55dp"
+            android:id="@+id/imagetitu"
+            android:src="@drawable/regicho"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/fondo2"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtusuario1"
+            android:hint="Usuario"
+            android:foregroundTint="#ffffff"
+            android:textColorHint="#ffffff"
+            android:layout_above="@+id/contra34"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/contra34"
+            android:hint="Contraseña"
+            android:textColorHint="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:onClick="main_guardasd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRAR"
+            android:id="@+id/btrek"
+            android:backgroundTint="#7395f4"
+            android:background="#7395f4"
+            android:textColor="#f3fffefe"
+            android:layout_below="@+id/contra34"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/tcdu"
+            android:layout_above="@+id/txtusuario1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:foregroundTint="#ffffff"
+            android:hint="Cedula de chofer"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
